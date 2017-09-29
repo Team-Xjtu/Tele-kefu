@@ -5,7 +5,7 @@
     var myName = false;
 
     //建立websocket连接
-    socket = io.connect('http://192.168.0.22:3000');
+    socket = io.connect('http://47.95.209.24:3000');
     //收到server的连接确认
     socket.on('open',function(){
         status.text('请输入用户名:');
